@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    background-color: #F0E8C2;
+}
+
+.form-section{
+    flex-direction: column;
+    width: 384px;
+    margin-inline: auto;
+    justify-content: center;
+    position: relative;
+}
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+    font-style: Alice;
+}
+
+.image-section {
+    background-size: cover;
+}
