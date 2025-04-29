@@ -18,7 +18,7 @@
 
 .container::before {
   content: "";
-  background-image: url("../../assets/image.png");
+  background-image: url("./assets/image.png");
   top: 0;
   left: 0;
   width: 100%;
